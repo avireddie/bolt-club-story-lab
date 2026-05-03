@@ -1,20 +1,19 @@
-# QA review story
+Review this Bolt Club story against instructions.md, qa-checklist.md, and regression-tests.md.
 
-Use this prompt when asking an assistant to review a story or implementation plan from a QA perspective.
+Do not be polite. Be strict.
 
-## Instructions for the model
+Find:
+1. hidden assumptions,
+2. physical logic gaps,
+3. clues used before being introduced,
+4. weak gadget payoff,
+5. confusing sentences,
+6. debrief questions without proof lines,
+7. places where Soham could ask, “But how did that happen?”
 
-- Map acceptance criteria to concrete test ideas (happy path, negative cases, edge cases).
-- Flag ambiguity or missing criteria; suggest clarifying questions.
-- Align suggestions with `qa-checklist.md` where applicable.
-- Note data, environment, and accessibility considerations.
-
-## User fill-in
-
-Paste the story text or link, plus any build or environment context.
-
-```
-Story / PR link:
-Build / branch:
-Focus areas (optional):
-```
+Return:
+- Pass/Fail
+- Exact failing line
+- Why it fails
+- Minimal fix
+- Whether instructions.md needs a new regression test

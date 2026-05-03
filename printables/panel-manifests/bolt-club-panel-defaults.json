@@ -1,0 +1,8 @@
+{
+  "comment": "House style for ALL Bolt Club panel images. Each mission manifest merges these defaults with its own panels[]. Override any key (e.g. imageSize) per mission if needed.",
+  "styleSuffix": "Black and white only. Visual style: detailed children's graphic-novel / manga-influenced ink illustration — rich background, clear expressions, dynamic poses, environmental props (signs, gear, architecture) like a premium chapter-book comic page. High contrast, clean outlines, no color. No speech bubbles. Do not include readable story paragraphs or fake handwriting in the image; tiny decorative English words on props or venue signs only if naturally part of the scene.",
+  "imageModel": "dall-e-3",
+  "imageSize": "1792x1024",
+  "outputBase": "printables",
+  "outputSubdir": "images"
+}

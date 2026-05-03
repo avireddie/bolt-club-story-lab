@@ -38,7 +38,9 @@ Then output a **markdown table block** with one row per seed, **columns exactly:
 ## Quality bar
 
 - **Fun, cool, mischievous** — not babyish, worksheet, or moral-science tone.  
-- **Variety** — not all “missing object”; mix clues, chases, sabotage, strange signals, animal/conservation only where tier fits.  
+- **Variety** — not all “missing object”; mix **mystery shapes** (timetable tension, swapped labels, rumor vs fact, conflicting accounts—not only chalk trails + misread notices per [`instructions.md` — Variety](../instructions.md#variety-antiformula)).  
+- **Kid-scale stakes** — time pressure, unfair blame, rumor, dignity, rivalry—not only recovering a prop.  
+- **Place texture** — seed **named/sensory** locations and gear (not only “the red X and the blue Y”) per [`instructions.md` — Setting and props](../instructions.md#setting-props-worksheet).  
 - **Bolt Club** — seeds should allow Kabir/Rohan/Tara/Meera beats without naming every seed (the story prompt will).  
 - **No duplicates** of starter-list mysteries unless **place + gadget + twist** are clearly different.
 

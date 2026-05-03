@@ -1,0 +1,21 @@
+{
+  "comment": "Mission-specific panels only. Style + API settings come from bolt-club-panel-defaults.json (same for every new mission). Run: npm run generate:panels -- --manifest printables/panel-manifests/lantern-parcel-chest-3.json",
+  "panels": [
+    {
+      "file": "lantern-page1.png",
+      "prompt": "Wide shot, rainy railway museum platform in India, wet reflective stones. A group of Indian children (the Bolt Club) near a toy train parade track. One boy holds a small tin box. A kind adult man (volunteer) stands at a ticket-shed counter holding a brass café bell. Three rival kids in the foreground point accusingly. Stormy exciting mood, dramatic sky."
+    },
+    {
+      "file": "lantern-page2.png",
+      "prompt": "Medium shot, outdoor museum café snack stall and a ticket-shed with metal grill bars. A wooden parcel chest with railway stickers visible behind the locked grill. One boy compares two paper cards in his hands. A girl carefully opens a snack packet. Another boy runs back toward them slightly breathless. Tense but slightly humorous mood."
+    },
+    {
+      "file": "lantern-page3.png",
+      "prompt": "Close-up action shot, low angle under metal grill bars. A tiny toy rover car with a folding periscope mirror neck and a small torch clipped on top, string attached to the mirror, rolling on dusty floor toward a wooden chest with a thin slit under the lid. A boy watches intensely; another boy crouches ready to sprint. Secret mission gadget moment."
+    },
+    {
+      "file": "lantern-page4.png",
+      "prompt": "Wide triumphant scene, museum manager unlocking grill, lifting a brass signal lantern from a wooden parcel chest. Indian boy holds two different instruction cards side by side. Embarrassed rival kid nearby. Small toy steam engine in foreground with lantern being clipped on, warm light suggestion only as grayscale glow. Triumphant solved mood."
+    }
+  ]
+}

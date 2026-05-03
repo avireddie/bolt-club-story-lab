@@ -71,5 +71,7 @@ Add rows as you invent missions worth repeating.
 
 ## Notes
 
+- Prefer **chapter-adventure** stakes—exploration, ticking clock, rivalry—not only “office puzzle” vibes ([`instructions.md` — Adventure serial DNA](instructions.md#adventure-serial-dna)).
+- Prefer **named/sensory** settings over **paired color-coded** props as the whole hook ([`instructions.md` — Setting and props](instructions.md#setting-props-worksheet)).
 - Prefer stakes **bigger than a tiny craft problem**; gadget is usually a **tool inside a bigger case** ([`instructions.md`](instructions.md)).
 - If you have **no seed**, the GPT should propose three options (everyday, medium, big) per [`instructions.md` — Default behavior](instructions.md#default-behavior-example).

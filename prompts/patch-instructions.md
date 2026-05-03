@@ -1,18 +1,11 @@
-# Patch instructions
+Here is a Bolt Club failure.
 
-Use this prompt when asking an assistant to implement a focused code change from a story or ticket.
+Failure:
+[PASTE FAILURE HERE]
 
-## Instructions for the model
-
-- Scope changes to what the request asks; avoid unrelated refactors.
-- Match existing project style, patterns, and file layout.
-- After edits, summarize what changed and where; note tests run or to run.
-
-## User fill-in
-
-```
-Objective:
-Files / areas to touch (if known):
-Out of scope:
-Tests to add or run:
-```
+Please:
+1. identify which instruction was too weak,
+2. propose the smallest patch to instructions.md,
+3. propose a new regression test,
+4. do not rewrite unrelated sections,
+5. preserve the Bolt Club tone and purpose.

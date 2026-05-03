@@ -44,9 +44,9 @@ Tick when satisfied. Any fail → revise before sharing with Soham; details are 
 
 ### D. Comprehension & debrief
 
-*Refs: [Reading skills to embed](instructions.md#reading-skills-to-embed), [Mission Debrief page](instructions.md#mission-debrief-page), [Debrief must be evidence-based](instructions.md#debrief-must-be-evidence-based)*
+*Refs: [Reading skills](instructions.md#reading-skills-to-embed), [Mission Debrief](instructions.md#mission-debrief-page), [Variety](instructions.md#variety-antiformula)*
 
-- [ ] Gist + recap + Exact Words trap + threading + inference moments are present and fair.
+- [ ] Gist + recap + **reading razor** (Exact Words **or** equivalent per spec) + threading + inference are present and fair.
 - [ ] Every debrief answer ties to an **exact proof line** from the story.
 
 ### E. Tone
@@ -59,7 +59,7 @@ Tick when satisfied. Any fail → revise before sharing with Soham; details are 
 
 *Refs: [Comprehension QA Editor](instructions.md#comprehension-qa-editor)*
 
-- [ ] Skim the 12 failure modes; if any apply, revise.
+- [ ] Skim the comprehension QA failure modes; if any apply, revise (#13–17 include quota, formula fatigue, dead pulse, color spine, gadget unreadability).
 
 ---
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mission title — Bolt Club</title>
+  <link rel="stylesheet" href="css/bolt-club-chapter-pdf.css" />
+</head>
+<body>
+
+  <!-- Copy this block for every new mission; replace title and tagline. -->
+  <header class="doc-header">
+    <p class="series-banner">The Bolt Club</p>
+    <h1 class="mission-title">Your Mission Title Here</h1>
+    <p class="bedtime-tagline">One line for Soham / print note.</p>
+  </header>
+
+  <aside class="screen-only">Print → Save as PDF. Link <code>images/your-page1.png</code> in each <code>.panel-frame</code>.</aside>
+
+  <!-- First story page: no .story-page--continued, no .running-head -->
+  <section class="story-page" id="page-1">
+    <p class="page-lead">
+      <span class="page-num">Page 1</span><span class="page-sep">:</span>
+      <span class="chapter-name">Chapter title</span>
+    </p>
+    <figure class="hero-illustration">
+      <div class="panel-frame">
+        <img class="panel-img" src="images/your-page1.png" alt="" width="1200" height="900" decoding="async" />
+        <span class="panel-hint">Drop <code>your-page1.png</code> in <code>printables/images/</code> or run your panel script.</span>
+      </div>
+      <figcaption class="art-brief">
+        <strong>Panel art brief</strong>
+        (Paste the 3–6 bullet brief from the generated story packet.)
+      </figcaption>
+    </figure>
+    <div class="story-body">
+      <p>Story paragraphs…</p>
+    </div>
+  </section>
+
+  <!-- Continued pages: add .story-page--continued and a .running-head -->
+  <section class="story-page story-page--continued" id="page-2">
+    <p class="running-head">The Bolt Club</p>
+    <p class="page-lead">
+      <span class="page-num">Page 2</span><span class="page-sep">:</span>
+      <span class="chapter-name">Next chapter title</span>
+    </p>
+    <figure class="hero-illustration">
+      <div class="panel-frame">
+        <img class="panel-img" src="images/your-page2.png" alt="" width="1200" height="900" decoding="async" />
+        <span class="panel-hint">Same as page 1 — link PNGs in <code>printables/images/</code>.</span>
+      </div>
+      <figcaption class="art-brief"><strong>Panel art brief</strong> …</figcaption>
+    </figure>
+    <div class="story-body">
+      <p>…</p>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      document.querySelectorAll(".panel-frame").forEach(function (frame) {
+        var img = frame.querySelector(".panel-img");
+        var hint = frame.querySelector(".panel-hint");
+        if (!img || !hint) return;
+        function showImage() {
+          img.classList.add("is-visible");
+          hint.setAttribute("hidden", "");
+        }
+        function showPlaceholder() {
+          img.classList.remove("is-visible");
+          hint.removeAttribute("hidden");
+        }
+        if (img.complete && img.naturalWidth > 0) showImage();
+        else {
+          img.addEventListener("load", showImage);
+          img.addEventListener("error", showPlaceholder);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
