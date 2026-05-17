@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 
+- **instructions.md (packet layout):** **Standard = 6 pages** — Page **1** = case title + Bolt Club roster + intro (**4–10** sentences); **Pages 2–5** = four mystery chapters (**6–10** sentences each); **Page 6** = Mission Debrief. **Extended = 7 pages** with one optional extra story page before debrief. Seed→PDF script and prompts now expect **five** `storyPages` in JSON (intro + four chapters).
 - **instructions.md v0.9.0:** **Illustrations and Custom GPT** — text-first hosts need **panel art briefs** (ChatGPT often does not render comic PNGs); **Gadget and clue prose** — readable chains and quoted tags; Comprehension QA #17; QA table rows; Output format ties story pages to art briefs.
 - **instructions.md v0.8.0:** **Setting and props** — avoid lame paired **color-coded** puzzle furniture (red bench / blue trunk syndrome); prefer venue-specific, sensory objects; Comprehension QA #16; QA table row.
 - **instructions.md v0.7.0:** Optional **extended packet** — **6 pages** (5 story + debrief) when an extra story page adds value; standard remains **5 pages** (4 story + debrief); Logic Map and output format updated.

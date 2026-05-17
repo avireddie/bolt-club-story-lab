@@ -10,6 +10,7 @@ Find:
 5. confusing sentences,
 6. debrief questions without proof lines,
 7. places where Soham could ask, “But how did that happen?”
+8. **packet layout** — Standard **6 pages** (Page 1 intro + roster **4–10** sentences; Pages 2–5 mystery **6–10** each; Page 6 debrief) or justified **extended 7 pages**.
 
 Return:
 - Pass/Fail

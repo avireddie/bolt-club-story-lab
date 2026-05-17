@@ -19,6 +19,8 @@ Use the **same layout and picture style for every mission:**
 
 Per mission you only maintain **story-specific** files: `*-bedtime.html`, `panel-manifests/<slug>.json` (usually **panels[] only** — defaults supply the style), and PNGs under `images/`.
 
+**Standard packet layout** (see [`instructions.md`](../instructions.md)): **Page 1** = case title + Bolt Club roster + hook; **Pages 2–5** = mystery chapters; **Page 6** = Mission Debrief — **five** panel PNGs (`page1` … `page5`) plus debrief in HTML.
+
 ## Seed → PDF (full system)
 
 From repo root (after `npm install` and `.env`):

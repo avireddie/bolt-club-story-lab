@@ -3,19 +3,23 @@
   "panels": [
     {
       "file": "lantern-page1.png",
-      "prompt": "Wide shot, rainy railway museum platform in India, wet reflective stones. A group of Indian children (the Bolt Club) near a toy train parade track. One boy holds a small tin box. A kind adult man (volunteer) stands at a ticket-shed counter holding a brass café bell. Three rival kids in the foreground point accusingly. Stormy exciting mood, dramatic sky."
+      "prompt": "Wide establishing shot, rainy Indian mini railway museum platform, wet stones. Five Indian children (the Bolt Club) posed together near a toy parade track — one boy with tin gadget box, one with cards, one ready to run, one grinning, one with snack pouch. Stormy silver sky, exciting arrival mood. No speech bubbles."
     },
     {
       "file": "lantern-page2.png",
-      "prompt": "Medium shot, outdoor museum café snack stall and a ticket-shed with metal grill bars. A wooden parcel chest with railway stickers visible behind the locked grill. One boy compares two paper cards in his hands. A girl carefully opens a snack packet. Another boy runs back toward them slightly breathless. Tense but slightly humorous mood."
+      "prompt": "Medium shot at museum parade track and empty lantern hook on ticket-shed post. Parade manager shouting, arms raised. Volunteer man at counter holding brass café bell. Three rival kids pointing accusingly. One boy reading a setup card. Urgent twelve-minutes-left mood."
     },
     {
       "file": "lantern-page3.png",
-      "prompt": "Close-up action shot, low angle under metal grill bars. A tiny toy rover car with a folding periscope mirror neck and a small torch clipped on top, string attached to the mirror, rolling on dusty floor toward a wooden chest with a thin slit under the lid. A boy watches intensely; another boy crouches ready to sprint. Secret mission gadget moment."
+      "prompt": "Medium shot, outdoor museum café snack stall and ticket-shed with metal grill bars. Wooden parcel chest with railway stickers behind locked grill. Boy compares paper cards. Girl opens snack packet. Boy runs back breathless. Tense but slightly humorous mood."
     },
     {
       "file": "lantern-page4.png",
-      "prompt": "Wide triumphant scene, museum manager unlocking grill, lifting a brass signal lantern from a wooden parcel chest. Indian boy holds two different instruction cards side by side. Embarrassed rival kid nearby. Small toy steam engine in foreground with lantern being clipped on, warm light suggestion only as grayscale glow. Triumphant solved mood."
+      "prompt": "Close-up action shot, low angle under metal grill bars. Tiny toy rover with folding periscope mirror neck and torch on roof, string on mirror, rolling toward wooden chest with thin slit under lid. Boy watches intensely; another crouches ready to sprint. Secret mission gadget moment."
+    },
+    {
+      "file": "lantern-page5.png",
+      "prompt": "Wide triumphant scene, museum manager unlocking grill, lifting brass signal lantern from wooden parcel chest. Indian boy holds two instruction cards side by side. Embarrassed rival kid nearby. Toy steam engine with lantern on hook, grayscale warm glow suggestion. Triumphant solved mood."
     }
   ]
 }

@@ -69,19 +69,25 @@ const JSON_INSTRUCTIONS = `Return a single JSON object with this exact shape (no
 }
 
 Rules:
-- Exactly 4 objects in storyPages (standard packet).
-- debrief.items should include these sections in order: Case gist; Three-sentence recap; Evidence hunt; Tiny Logic Word Trap (or your reading-razor label); Sentence threading; Detective inference; Build tomorrow's mission — each with mission-specific dd text.
-- paragraphs: 6-10 blocks per page total (mix type p and sign as needed).`;
+- Exactly 5 objects in storyPages (standard packet): index 0 = **Page 1** (case intro + five-kid roster + hook); indices 1–4 = **Pages 2–5** (four mystery chapters).
+- storyPages[0].paragraphs: **4–10** blocks (mix type p and sign as needed).
+- storyPages[1] through [4].paragraphs: **6–10** blocks each.
+- debrief.items should include these sections in order: Case gist; Three-sentence recap; Evidence hunt; Tiny Logic Word Trap (or your reading-razor label); Sentence threading; Detective inference; Build tomorrow's mission — each with mission-specific dd text.`;
 
 function validateMission(m) {
   if (!m.missionTitle) throw new Error("JSON missing missionTitle");
-  if (!Array.isArray(m.storyPages) || m.storyPages.length !== 4) {
-    throw new Error("storyPages must have exactly 4 entries (standard packet)");
+  if (!Array.isArray(m.storyPages) || m.storyPages.length !== 5) {
+    throw new Error("storyPages must have exactly 5 entries (Page 1 intro + four mystery chapters)");
   }
   m.storyPages.forEach((p, i) => {
     if (!p.imagePrompt || !p.panelArtBrief) throw new Error(`storyPages[${i}] needs imagePrompt and panelArtBrief`);
-    if (!Array.isArray(p.paragraphs) || p.paragraphs.length < 4) {
-      throw new Error(`storyPages[${i}] needs paragraphs array (at least 4 blocks)`);
+    const paras = p.paragraphs;
+    if (!Array.isArray(paras)) throw new Error(`storyPages[${i}] needs paragraphs array`);
+    const n = paras.length;
+    if (i === 0) {
+      if (n < 4 || n > 10) throw new Error(`storyPages[0] (Page 1 intro) needs 4–10 paragraph blocks, got ${n}`);
+    } else if (n < 6 || n > 10) {
+      throw new Error(`storyPages[${i}] (Pages 2–5) needs 6–10 paragraph blocks, got ${n}`);
     }
   });
   if (!m.debrief?.items?.length) throw new Error("debrief.items required");

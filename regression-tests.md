@@ -26,6 +26,7 @@ They are **not** automated software tests (there is no CI browser suite here).
 | R11 | Adventure pulse | Reads like a **chapter adventure** (exploration / escalation / human pressure), not a procedural case checklist ([`instructions.md` — Adventure serial DNA](instructions.md#adventure-serial-dna)) | [`instructions.md`](instructions.md#adventure-serial-dna) |
 | R12 | Place texture | Solve does not mainly ride on **paired color labels**; props feel **venue-specific** ([`instructions.md` — Setting and props](instructions.md#setting-props-worksheet)) | [`instructions.md`](instructions.md#setting-props-worksheet) |
 | R13 | Art + readability | Story pages include **panel art briefs** if host is text-only; gadget chains and **tag quotes** stay traceable ([`instructions.md`](instructions.md#illustrations-custom-gpt), [Gadget prose](instructions.md#gadget-prose-clarity)) | [`instructions.md`](instructions.md#illustrations-custom-gpt) |
+| R14 | Packet layout | **Standard:** Page **1** intro + roster (**4–10** sentences); **Pages 2–5** mystery (**6–10** each); **Page 6** debrief. **Extended:** +1 story page, debrief last. | [`instructions.md` — Default packet](instructions.md#default-packet-print-layout), [Printable page layout](instructions.md#printable-page-layout-what-print-ready-means) |
 
 ---
 
@@ -37,6 +38,7 @@ They are **not** automated software tests (there is no CI browser suite here).
 4. **R6** — For each debrief question, locate the proof line in the story pages.
 5. **R10** — Stakes beyond object-loss; avoid default trail + lone misread sign only ([`instructions.md` — Variety](instructions.md#variety-antiformula)).
 6. **R11** — Sniff-test: would a kid call this **boring admin**? If yes, fail—need adventure pulse ([`instructions.md` — Adventure serial DNA](instructions.md#adventure-serial-dna)).
+7. **R14** — Count print pages: five story pages + debrief; Page **1** names all five Bolt Club kids; sentence counts match spec.
 
 ---
 

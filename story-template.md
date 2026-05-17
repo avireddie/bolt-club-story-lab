@@ -48,7 +48,7 @@ Avoid “one gag per captain per page.” Roles may overlap in one beat.
 
 | Beat | Plan |
 |------|------|
-| Soham — gadget that changes the plot (**kit / premade / on-site OK**) | |
+| Soham — gadget that changes the plot (**kit / premade / on-site OK**); idea bank: [`instructions.md` → Soham’s gadget — idea bank](instructions.md#soham-gadget-idea-bank) | |
 | Kabir — clue interpretation | |
 | Rohan — chase or decisive movement | |
 | Tara — wit / mischief **only where it earns its place** | |
@@ -77,8 +77,8 @@ List physical beats that need proof lines (doors, chases, gadgets moving things,
 
 ## Packet length
 
-- [ ] **Standard** — 4 story pages + debrief on page 5  
-- [ ] **Extended** — 5 story pages + debrief on page 6 *(only if one more story page adds real value—[`instructions.md`](instructions.md#story-writer) Default packet)*  
+- [ ] **Standard** — Pages **1–5** story + debrief on page **6**  
+- [ ] **Extended** — Pages **1–6** story + debrief on page **7** *(only if one more story page adds real value—[`instructions.md`](instructions.md#story-writer) Default packet)*  
 - **Justification** *(if extended)*:
 
 ---

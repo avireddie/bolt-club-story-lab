@@ -29,7 +29,7 @@ Outputs (same slug derived from `missionTitle` unless you pass **`--out-slug my-
 |----------|------|
 | Printable HTML | `printables/<slug>-bedtime.html` |
 | Panel manifest | `printables/panel-manifests/<slug>.json` |
-| PNG panels | `printables/images/<slug>-page1.png` … `page4.png` |
+| PNG panels | `printables/images/<slug>-page1.png` … `page5.png` |
 | PDF | `printables/<slug>.pdf` |
 
 ### Flags

@@ -48,6 +48,7 @@ Gadget or build (Soham):
 - Library secret room  
 - Terrace clue trail  
 - Bus clue trail  
+- **Bus petrol thief** — someone’s draining the tank or siphoning fuel; the trip, match, or inter-school run is about to be cancelled; prove who before wheels roll.  
 
 **Bigger special episodes**
 
@@ -66,6 +67,7 @@ Add rows as you invent missions worth repeating.
 | Name | Mystery | Place | Tier | Gadget / build | Used / date | Notes |
 |------|---------|-------|------|----------------|-------------|-------|
 | Example | Stolen telescope | School terrace | everyday | Magnet Grabber | | From [`instructions.md`](instructions.md) sample |
+| Bus petrol thief | Fuel vanishing from the school bus / depot; wrong person blamed; trip or event on a timer | School bus bay, transport yard, or trip halt | medium | e.g. cycle stakeout + LED dazzle, hose-clamp string marker, or under-chassis string-and-mirror peek—pick from [`instructions.md` — Soham’s gadget idea bank](instructions.md#soham-gadget-idea-bank) | | Petrol theft as **crime beat**, not fuel-theft how-to |
 
 ---
 

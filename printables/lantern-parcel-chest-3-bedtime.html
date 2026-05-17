@@ -16,15 +16,15 @@
 
   <aside class="screen-only">
     <strong>Print:</strong> Use your browser → Print → Save as PDF or paper.<br />
-    <strong>Pictures (automated):</strong> From the repo root run <code>npm install</code>, add <code>OPENAI_API_KEY</code> to <code>.env</code>, then <code>npm run generate:panels:lantern</code>. PNGs appear in <code>printables/images/</code> and load here automatically.<br />
-    <strong>Layout:</strong> Matches the Bolt Club “chapter PDF” look — big black-and-white hero art, then text (<code>css/bolt-club-chapter-pdf.css</code>).
+    <strong>Pictures (automated):</strong> From the repo root run <code>npm install</code>, add <code>OPENAI_API_KEY</code> to <code>.env</code>, then <code>npm run generate:panels:lantern</code>. PNGs appear in <code>printables/images/</code> (<code>lantern-page1.png</code> … <code>page5.png</code>) and load here automatically.<br />
+    <strong>Layout:</strong> Standard packet — five story pages + Mission Debrief (<code>css/bolt-club-chapter-pdf.css</code>).
   </aside>
 
-  <!-- ========== STORY PAGE 1 ========== -->
+  <!-- ========== STORY PAGE 1 (intro + roster) ========== -->
   <section class="story-page" id="page-1">
     <p class="page-lead">
       <span class="page-num">Page 1</span><span class="page-sep">:</span>
-      <span class="chapter-name">The Horn That Stopped</span>
+      <span class="chapter-name">The Bolt Club Arrives</span>
     </p>
 
     <figure class="hero-illustration">
@@ -34,25 +34,17 @@
       </div>
       <figcaption class="art-brief">
         <strong>Panel art brief</strong>
-        Wide shot of a mini railway museum platform after rain. The Bolt Club near a toy-engine parade track.
-        Soham holding a tin gadget box. Rafiq uncle near a ticket-shed counter with a brass bell.
-        Three rival kids pointing dramatically. Mood: stormy, exciting, sudden trouble.
+        Wide establishing shot: rainy mini railway museum platform. The full Bolt Club together near the toy-engine parade track—Soham with tin gadget box, Kabir with cards, Rohan ready to move, Tara grinning, Meera with snack pouch. Stormy silver sky; adventure beginning.
       </figcaption>
     </figure>
 
     <div class="story-body">
       <p>The Bolt Club’s bus rolled into Chhatrapati Mini Rail Museum just as monsoon clouds turned the old platform silver.</p>
-      <p>Earlier that morning, volunteers had run a snack-tent cheer contest; the brass café bell was part of the decoration—everything tagged with return cards for later.</p>
-      <p>Today the museum had a toy-engine parade, and the brass Signal-Tower Lantern was supposed to shine from the front carriage.</p>
-      <p>Soham tapped the tin box in his backpack; inside slept his Pocket Periscope Rover, a palm-size car with a folding mirror neck.</p>
-      <p>Meera guarded a rare jalebi-popcorn packet with a train sticker, plus a pouch of clips, chalk, a mini torch, and string.</p>
-      <p>A whistle squealed, but the parade manager shouted, “Stop the engine! The Signal-Tower Lantern is gone.”</p>
-      <p>Rafiq uncle, the quiet volunteer, stood by the ticket-shed counter with a brass café bell in his hand, and three Platform Panthers pointed at him.</p>
-      <p>One Panther captain, Nikhil, said, “We saw brass in his hand before the first horn.” He shook a folded scrap of paper—his fast copied helper checklist from setup.</p>
-      <p>Kabir read the official setup card on the empty hook:</p>
-      <p class="sign">Before first horn: put all loose brass props in Parcel Chest 3, except the Signal-Tower Lantern on the hook.</p>
-      <p>Tara whispered, “That sign has a tiny word with superhero muscles.”</p>
-      <p>The second horn would blow in twelve minutes, and if the lantern stayed missing, Rafiq uncle would be blamed and the parade would be canceled.</p>
+      <p><strong>Soham</strong>, Build Captain, carried a tin box with his Pocket Periscope Rover inside—a palm-size car with a folding mirror neck.</p>
+      <p><strong>Kabir</strong> read every card twice; <strong>Rohan</strong> chased footprints; <strong>Tara</strong> spotted tiny words that changed cases; <strong>Meera</strong> guarded jalebi-popcorn, clips, chalk, a mini torch, and string.</p>
+      <p>Today’s toy-engine parade needed the brass Signal-Tower Lantern on the front carriage—but someone had already shouted that it was gone.</p>
+      <p>Volunteer Rafiq uncle stood by the ticket-shed counter while three Platform Panthers pointed at him.</p>
+      <p>The second horn would blow in twelve minutes, and if the lantern stayed missing, the parade would be canceled.</p>
     </div>
   </section>
 
@@ -61,12 +53,42 @@
     <p class="running-head">The Bolt Club</p>
     <p class="page-lead">
       <span class="page-num">Page 2</span><span class="page-sep">:</span>
-      <span class="chapter-name">The Wrong Brass Thing</span>
+      <span class="chapter-name">The Horn That Stopped</span>
     </p>
 
     <figure class="hero-illustration">
       <div class="panel-frame">
         <img class="panel-img" src="images/lantern-page2.png" alt="" width="1200" height="900" decoding="async" />
+        <span class="panel-hint">Generating… run <code>npm run generate:panels:lantern</code> or draw in this frame.</span>
+      </div>
+      <figcaption class="art-brief">
+        <strong>Panel art brief</strong>
+        Medium shot: parade track, empty lantern hook, parade manager shouting. Rafiq uncle at the counter with a brass café bell. Platform Panthers pointing. Kabir reading the setup card. Urgent mood.
+      </figcaption>
+    </figure>
+
+    <div class="story-body">
+      <p>Earlier that morning, volunteers had run a snack-tent cheer contest; the brass café bell was part of the decoration—everything tagged with return cards for later.</p>
+      <p>A whistle squealed, and the parade manager shouted, “Stop the engine! The Signal-Tower Lantern is gone.”</p>
+      <p>One Panther captain, Nikhil, said, “We saw brass in his hand before the first horn.” He shook a folded scrap—his fast copied helper checklist from setup.</p>
+      <p>Kabir read the official setup card on the empty hook:</p>
+      <p class="sign">Before first horn: put all loose brass props in Parcel Chest 3, except the Signal-Tower Lantern on the hook.</p>
+      <p>Tara whispered, “That sign has a tiny word with superhero muscles.”</p>
+      <p>Meera tightened her pouch while everyone stared at the brass bell in Rafiq uncle’s hand.</p>
+    </div>
+  </section>
+
+  <!-- ========== STORY PAGE 3 ========== -->
+  <section class="story-page story-page--continued" id="page-3">
+    <p class="running-head">The Bolt Club</p>
+    <p class="page-lead">
+      <span class="page-num">Page 3</span><span class="page-sep">:</span>
+      <span class="chapter-name">The Wrong Brass Thing</span>
+    </p>
+
+    <figure class="hero-illustration">
+      <div class="panel-frame">
+        <img class="panel-img" src="images/lantern-page3.png" alt="" width="1200" height="900" decoding="async" />
         <span class="panel-hint">Generating… run <code>npm run generate:panels:lantern</code> or draw in this frame.</span>
       </div>
       <figcaption class="art-brief">
@@ -92,17 +114,17 @@
     </div>
   </section>
 
-  <!-- ========== STORY PAGE 3 ========== -->
-  <section class="story-page story-page--continued" id="page-3">
+  <!-- ========== STORY PAGE 4 ========== -->
+  <section class="story-page story-page--continued" id="page-4">
     <p class="running-head">The Bolt Club</p>
     <p class="page-lead">
-      <span class="page-num">Page 3</span><span class="page-sep">:</span>
+      <span class="page-num">Page 4</span><span class="page-sep">:</span>
       <span class="chapter-name">The Rover Under the Grill</span>
     </p>
 
     <figure class="hero-illustration">
       <div class="panel-frame">
-        <img class="panel-img" src="images/lantern-page3.png" alt="" width="1200" height="900" decoding="async" />
+        <img class="panel-img" src="images/lantern-page4.png" alt="" width="1200" height="900" decoding="async" />
         <span class="panel-hint">Generating… run <code>npm run generate:panels:lantern</code> or draw in this frame.</span>
       </div>
       <figcaption class="art-brief">
@@ -127,17 +149,17 @@
     </div>
   </section>
 
-  <!-- ========== STORY PAGE 4 ========== -->
-  <section class="story-page story-page--continued" id="page-4">
+  <!-- ========== STORY PAGE 5 ========== -->
+  <section class="story-page story-page--continued" id="page-5">
     <p class="running-head">The Bolt Club</p>
     <p class="page-lead">
-      <span class="page-num">Page 4</span><span class="page-sep">:</span>
+      <span class="page-num">Page 5</span><span class="page-sep">:</span>
       <span class="chapter-name">The Tiny Word That Saved the Parade</span>
     </p>
 
     <figure class="hero-illustration">
       <div class="panel-frame">
-        <img class="panel-img" src="images/lantern-page4.png" alt="" width="1200" height="900" decoding="async" />
+        <img class="panel-img" src="images/lantern-page5.png" alt="" width="1200" height="900" decoding="async" />
         <span class="panel-hint">Generating… run <code>npm run generate:panels:lantern</code> or draw in this frame.</span>
       </div>
       <figcaption class="art-brief">
@@ -163,7 +185,7 @@
     </div>
   </section>
 
-  <!-- ========== CASE FILE (optional bedtime talk) ========== -->
+  <!-- ========== PAGE 6: CASE FILE ========== -->
   <section class="debrief" id="debrief">
     <h2>Case File — Mission Debrief</h2>
 

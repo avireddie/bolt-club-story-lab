@@ -27,12 +27,16 @@ Docs and prompts for **print-ready Bolt Club reading missions**—stories for So
 
 **Automated B&W panels:** [`scripts/README.md`](scripts/README.md) (`npm run generate:panels:lantern`) writes PNGs into `printables/images/` for the bedtime HTML.
 
-**Chapter PDF layout:** [`printables/css/bolt-club-chapter-pdf.css`](printables/css/bolt-club-chapter-pdf.css) + [`printables/bolt-club-chapter-template.html`](printables/bolt-club-chapter-template.html) replicate the big-panel-then-text look (print → Save as PDF).
+**Chapter PDF layout:** [`printables/css/bolt-club-chapter-pdf.css`](printables/css/bolt-club-chapter-pdf.css) + [`printables/bolt-club-chapter-template.html`](printables/bolt-club-chapter-template.html) replicate the big-panel-then-text look — **standard packet: 5 story pages + debrief** (print → Save as PDF).
 
 **Naming:** Each mission gets its own `*-bedtime.html` (e.g. [`printables/lantern-parcel-chest-3-bedtime.html`](printables/lantern-parcel-chest-3-bedtime.html)); shared **image style** for every seed lives in [`printables/panel-manifests/bolt-club-panel-defaults.json`](printables/panel-manifests/bolt-club-panel-defaults.json) — see [`printables/README.md`](printables/README.md).
 
 ## Custom GPT
 
-Upload [**instructions.md**](instructions.md) as Knowledge. In the short Instructions field, tell the model to follow that file. Optional: add [**qa-checklist.md**](qa-checklist.md) if you want review criteria available in chat.
+Upload [**instructions.md**](instructions.md) as Knowledge. Optional: [**qa-checklist.md**](qa-checklist.md).
 
-**Images:** Most Custom GPT chats are **text-only**—the model outputs **panel art briefs** you can draw from or feed to another illustration tool; see **instructions.md → Illustrations and Custom GPT**.
+**Instructions field (short)** — paste something like:
+
+> Follow Knowledge `instructions.md` for every Bolt Club mission. Run Story Writer then Comprehension QA Editor internally; output only the final packet. When **Image generation** and **Code interpreter** are enabled, follow **Custom GPT — single-shot printable PDF**: one reply with full text, **five** B&W comic panels from image tools (not matplotlib/vector comics), **Page 1: 4–10 sentences** under the panel (intro + roster); **Pages 2–5: 6–10 sentences** each; Page 1 includes **all five** Bolt Club members by name and role, and **one** downloadable A4 PDF with images embedded—see **Printable page layout** in Knowledge.
+
+**Capabilities:** Turn **Image generation** and **Code interpreter** on if you want in-chat PDFs and panels; details—**instructions.md → Illustrations and Custom GPT** and **Custom GPT — single-shot printable PDF**.
